@@ -1,3 +1,3 @@
 'use strict'
 
-console.log('Hello, Pon');
+console.log('Hello, <your name>');
