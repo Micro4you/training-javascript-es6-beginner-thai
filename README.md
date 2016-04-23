@@ -1,0 +1,1 @@
+# training-javascript-es6-beginner-thai
