@@ -1,3 +1,9 @@
 'use strict'
 
-console.log('Hello, <your name>');
+var price = 100;
+
+for (var price = 100; price < 110; price++ ){
+
+}
+
+console.log('Price:', price);
