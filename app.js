@@ -1,3 +1,3 @@
 'use strict'
 
-console.log('Hello, <your name>');
+console.log('Price,');
