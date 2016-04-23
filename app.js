@@ -2,4 +2,4 @@
 
 
 
-console.log();
+console.log('API Key:');
