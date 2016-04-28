@@ -27,6 +27,8 @@ let plus = (first,second) => first + second;
 console.log(plus(1,2));
 
 
+
+console.log('Start counting...');
 let amount = 0;
 
 // setInterval(function addMore() {
