@@ -1,5 +1,14 @@
 'use strict'
 
+// let sayHi = function(){
+//   console.log('Hello, Pon!');
+// }
+
+let sayHi = () => console.log('Hello, Pon!');
+
+sayHi();
+
+
 // let printText = function(message){
 //   console.log(message);
 // }
