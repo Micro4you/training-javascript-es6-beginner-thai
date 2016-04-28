@@ -33,7 +33,7 @@ console.log('## Simple function that return object');
 //   return { name:'Pon'};
 // }
 
-let createUser = () => (){ name:'Pon' });
+let createUser = () => ({ name:'Pon' });
 
 let result = createUser();
 console.log(result.name);
