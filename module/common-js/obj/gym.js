@@ -1,6 +1,7 @@
 'use strict'
 
 module.exports = class Gym {
+    
     constructor(name, level){
         this.name = name;
         this.level = level;
