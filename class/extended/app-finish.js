@@ -7,7 +7,7 @@ class Ball {
    }
 
    catchPokemon() {
-       console.log(`${this.name} throwed.`);
+       console.log(`${this.name} threw.`);
    }
 }
 
