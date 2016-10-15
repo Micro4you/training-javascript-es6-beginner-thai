@@ -1,3 +1,3 @@
 'use strict'
 
-console.log('สวัสดี, JavaScript')
+console.log('สวัสดี, JavaScript');
