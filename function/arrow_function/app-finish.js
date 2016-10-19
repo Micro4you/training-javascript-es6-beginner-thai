@@ -33,6 +33,7 @@
 //     console.log('Hi, ES6');
 // }
 
+// If there's only 1 statement in function, you can do this.
 // let hiES6 = () => console.log("Hi, ES6");
 // hiES6();
 
