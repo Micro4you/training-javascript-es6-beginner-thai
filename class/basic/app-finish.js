@@ -1,6 +1,6 @@
 'use strict'
 
-class Pokemon {
+class Monster {
 
    constructor(name) {
        this.name = name;
@@ -17,10 +17,10 @@ class Pokemon {
    }
 }
 
-let pikachu = new Pokemon("Pikachu");
-console.log(pikachu.name);
+let mon = new Monster("My Mon");
+console.log(mon.name);
 
-pikachu.attack();
+mon.attack();
 
-pikachu.powerUp();
-pikachu.attack();
+mon.powerUp();
+mon.attack();
