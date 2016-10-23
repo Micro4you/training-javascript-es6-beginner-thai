@@ -6,5 +6,6 @@
 let plus = (first = 1, second = 1) => { return first + second }
 
 
-console.log( plus() );
+console.log('Call plus() only:', plus() );
+console.log('Call plus() with first parameter:', plus(9) );
 
