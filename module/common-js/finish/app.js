@@ -1,12 +1,12 @@
 'use strict'
 
-let Pokemon = require('./pokemon');
-let Gym = require('./obj/gym');
+let Monster = require('./monster');
+let Castle = require('./obj/castle');
 
-let pikachu = new Pokemon('Pikachu', 100);
+let mon = new Monster('Mon', 100);
 
-pikachu.attack();
+mon.attack();
 
-let myGym = new Gym("My Gym", 7);
-myGym.addPokemon( pikachu );
-myGym.whoDefendThisGym();
+let myCastle = new Castle("My Castle", 7);
+myCastle.addMonster( mon );
+myCastle.whoDefendThisCastle();

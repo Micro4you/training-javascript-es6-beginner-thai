@@ -1,6 +1,6 @@
 'use strict'
 
-module.exports = class Pokemon {
+module.exports = class Monster {
     
     constructor(name, cp = 100) {
         this.name = name;
