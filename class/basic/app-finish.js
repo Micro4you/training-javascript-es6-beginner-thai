@@ -28,5 +28,3 @@ mon.attack();
 let tam = new Monster("Tam");
 console.log(tam);
 console.log(tam.name);
-
-
