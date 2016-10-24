@@ -6,25 +6,25 @@ class Ball {
        this.name = name;
    }
 
-   catchPokemon() {
+   catchMonster() {
        console.log(`${this.name} threw.`);
    }
 }
 
-class PokeBall extends Ball {
+class MonBall extends Ball {
    constructor() {
        super("Poke Ball");
    }
 }
 
-class GreatBall extends Ball {
+class SuperBall extends Ball {
     constructor(){
         super("Great Ball");
     }
 }
 
-let pokeBall = new PokeBall();
-pokeBall.catchPokemon();
+let monBall = new MonBall();
+mokeBall.catchMonster();
 
-let greatBall = new GreatBall();
-greatBall.catchPokemon();
+let superBall = new SuperBall();
+superBall.catchMonster();
