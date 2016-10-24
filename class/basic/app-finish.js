@@ -2,9 +2,9 @@
 
 class Monster {
 
-   constructor(name) {
+   constructor(name, cp = 100) {
        this.name = name;
-       this.cp = 100;
+       this.cp = cp;
    }
 
    attack() {
@@ -18,9 +18,15 @@ class Monster {
 }
 
 let mon = new Monster("My Mon");
+console.log(mon);
 console.log(mon.name);
 
 mon.attack();
-
 mon.powerUp();
 mon.attack();
+
+let tam = new Monster("Tam");
+console.log(tam);
+console.log(tam.name);
+
+
