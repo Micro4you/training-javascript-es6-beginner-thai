@@ -1,6 +1,6 @@
 'use strict'
 
-class Pokemon {
+class Monster {
     
     constructor(name, cp = 100) {
         this.name = name;
