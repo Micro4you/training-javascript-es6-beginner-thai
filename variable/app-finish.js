@@ -1,6 +1,6 @@
 'use strict'
 
 let username = "Teerasej";
-let password = "123456";
+let email = "teerasej@nextflow.in.th";
 
-console.log("Username:", username, ", Password:", password );
+console.log("Username:", username, ", Email:", email );
