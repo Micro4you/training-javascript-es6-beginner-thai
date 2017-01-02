@@ -1,9 +1,9 @@
 'use strict'
 
-let pokemons = ['Pikachu','Magikarp','Balbasaur'];
+let monsters = ['Slime','Orc','Skeleton Warrior'];
 
 // ES 5
-// pokemons.forEach(function(mon){
+// monsters.forEach(function(mon){
 //     console.log(mon);
 // });
 
