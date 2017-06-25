@@ -1,15 +1,15 @@
 'use strict'
 
-let levelOnePokemons = ['Pikachu','Magikarp','Balbasaur'];
+let appleProducts = ['iPhone','iPad','MacBook'];
 
 // Insert array to another array
-let allPokemons = ['Meowth', 'Poliwag', ...levelOnePokemons];
+let allProducts = ['Google Pixel', 'Nexus 6P', ...appleProducts];
 
-console.log(allPokemons);
+console.log(allProducts);
 
 
 // Split into literal array with spread operator
-let pikachuName = "Pikachu";
-let arrayWords = [...pikachuName];
+let actionCameraName = "GoPro";
+let arrayWords = [...actionCameraName];
 
 console.log(arrayWords);
