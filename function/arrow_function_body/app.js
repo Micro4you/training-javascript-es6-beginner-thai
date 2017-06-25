@@ -1,10 +1,10 @@
 'use strict'
 
-let pokemons = ['Pikachu','Magikarp','Balbasaur'];
+let appleProducts = ['iPhone','iPad','MacBook Pro'];
 
 // ES 5
-// pokemons.forEach(function(mon){
-//     console.log(mon);
+// appleProducts.forEach(function(product){
+//     console.log(product);
 // });
 
 
