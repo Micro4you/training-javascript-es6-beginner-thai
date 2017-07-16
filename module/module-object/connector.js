@@ -10,5 +10,3 @@ let object = {
     }
 
 }
-
-module.exports = object;

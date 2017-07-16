@@ -1,5 +1,6 @@
 'use strict'
 
-module.exports = (username, password) => {
+let signIn = (username, password) => {
     console.log('Signing in...' + username);
 }
+
