@@ -2,7 +2,7 @@
 var title = "== Password Generator ==";
 
 
-var randomACharacter = function(length, withNumber) {
+var randomPassword = function(length, withNumber) {
 
   var text = "";
   var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
@@ -27,6 +27,6 @@ var print = function(text) {
 }
 
 print(title);
-print("Password length = 5: " + randomACharacter());
-print("Password without number: " + randomACharacter(10))
-print("Password with number: " + randomACharacter(10, true));
+print("Password length = 5: " + randomPassword());
+print("Password without number: " + randomPassword(10))
+print("Password with number: " + randomPassword(10, true));
