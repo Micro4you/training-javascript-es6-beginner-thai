@@ -1,0 +1,5 @@
+'use strict'
+
+let os = require('os');
+
+console.log(os.platform());

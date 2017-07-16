@@ -1,11 +1,11 @@
 'use strict'
 
-let monsters = ['Slime','Orc','Skeleton Warrior'];
+let appleProducts = ['iPhone','iPad','MacBook Pro'];
 
 // ES 5
-// monsters.forEach(function(mon){
-//     console.log(mon);
+// appleProducts.forEach(function(product){
+//     console.log(product);
 // });
 
 // ES 6
-monsters.forEach(mon => console.log(mon));
+appleProducts.forEach(product => console.log(product));
