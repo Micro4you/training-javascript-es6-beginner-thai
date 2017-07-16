@@ -1,7 +1,7 @@
 
 
 
-let randomACharacter = (length = 6, withNumber = false) => {
+let randomPassword = (length = 6, withNumber = false) => {
 
   let text = "";
   let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
@@ -17,4 +17,4 @@ let randomACharacter = (length = 6, withNumber = false) => {
   return text;
 };
 
-module.exports = randomACharacter;
+module.exports = randomPassword;

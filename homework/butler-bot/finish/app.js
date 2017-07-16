@@ -5,14 +5,17 @@ let rl = readline.createInterface(process.stdin, process.stdout);
 rl.setPrompt("How long is password you need?");
 rl.prompt();
 
-rl
-  .on("line", line => {
+rl.on("line", line => {
     
+    if(line == "exit"){
+      process.exit(0);
+    }
+
     let password = randomPassword(line);
     console.log(password);
     
     rl.prompt();
   })
-  .on("close", () => {
-    process.exit(0);
-  });
+  // .on("close", () => {
+  //   process.exit(0);
+  // });
