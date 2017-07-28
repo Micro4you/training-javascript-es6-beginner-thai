@@ -1,6 +1,6 @@
-'use strict'
+
 
 let username = "Teerasej";
-let pokemonName = "Pikachu";
+let email = "training@nextflow.in.th";
 
 console.log();
