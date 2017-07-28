@@ -1,7 +1,10 @@
 
+// indexOf()
+// lastIndexOf()
+// slice()
 
 let website = "https://www.nextflow.in.th";
-// let website = "http://www.bots.in.th";
+//website = "http://www.bots.in.th";
 
 // -> https://, http://
 let protocol;
