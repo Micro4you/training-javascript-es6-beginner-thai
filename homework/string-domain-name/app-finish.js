@@ -1,7 +1,10 @@
 
+// indexOf()
+// lastIndexOf()
+// slice()
 
-// let website = "https://www.nextflow.in.th";
-let website = "http://www.bots.in.th";
+let website = "https://www.nextflow.in.th";
+// website = "http://www.bots.in.th";
 
 // -> https://, http://
 let fromIndex = 0;
