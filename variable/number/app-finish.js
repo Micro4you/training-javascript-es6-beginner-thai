@@ -23,40 +23,52 @@ console.log('หารไม่เอาเศษ: ', result);
 result = first % second;
 console.log('หารเอาแค่เศษ: ', result);
 
+console.log('====================================');
+console.log('Increment/Decrement Operator');
+console.log('====================================');
+
+first = 100;
+console.log('Start value, fisrt:', first );
+
 result = ++first;
-console.log('เพ่ิมอีก 1: ', result);
+console.log('Increase "before" assign, first:', first, ', result:', result);
 
+first = 100;
 result = --first;
-console.log('ลดไป 1: ', result);
+console.log('Decrease "before" assign, first:', first, ', result:', result);
 
+first = 100;
 result = first++;
-console.log(result, first);
+console.log('Assign before increase, first:', first, ', result:', result);
 
+first = 100;
 result = first--;
-console.log(result, first);
+console.log('Assign before decrease, first:', first, ', result:', result);
+
+
 
 console.log('====================================');
 console.log('Assignment Operator');
 console.log('====================================');
 
-first = 10;
-result = 7;
+first = 30;
+result = 100;
 
 result += first;
 console.log(result);
 
-result = 7;
+result = 100;
 result -= first;
 console.log(result);
 
-result = 7;
+result = 100;
 result *= first;
 console.log(result);
 
-result = 7;
+result = 100;
 result /= first;
 console.log(result);
 
-result = 7;
+result = 100;
 result %= first;
 console.log(result);

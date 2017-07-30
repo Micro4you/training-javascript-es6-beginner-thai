@@ -23,17 +23,30 @@ console.log('หารไม่เอาเศษ: ', result);
 result;
 console.log('หารเอาแค่เศษ: ', result);
 
-result;
-console.log('เพ่ิมอีก 1: ', result);
+// console.log('====================================');
+// console.log('Increment/Decrement Operator');
+// console.log('====================================');
 
-result;
-console.log('ลดไป 1: ', result);
+// first = 100;
+// console.log('Start value, fisrt:', first );
 
-// result;
-// console.log(result, first);
+// result = ++first;
+// console.log('Increase "before" assign, first:', first, ', result:', result);
 
-// result;
-// console.log(result, first);
+// first = 100;
+// result = --first;
+// console.log('Decrease "before" assign, first:', first, ', result:', result);
+
+// first = 100;
+// result = first++;
+// console.log('Assign before increase, first:', first, ', result:', result);
+
+// first = 100;
+// result = first--;
+// console.log('Assign before decrease, first:', first, ', result:', result);
+
+
+
 
 // console.log('====================================');
 // console.log('Assignment Operator');
