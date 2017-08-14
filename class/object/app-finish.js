@@ -19,10 +19,10 @@
 let monster = { 
     name: undefined,
     cp: 100,
-    attack: () => {
+    attack() {
         console.log("Attack", this.cp, 'points');
     },
-    powerUp: () => {
+    powerUp() {
         this.cp += 100;
         console.log("Power up completed!");
     }
